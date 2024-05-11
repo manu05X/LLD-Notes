@@ -7,4 +7,8 @@ public class HumanPlayer extends Player{
         super(symbol);
         this.user = user;
     }
+
+    public BoardCell play(Board board) {
+        return null;
+    }
 }

@@ -1,15 +1,21 @@
 package com.scaler.lld.tictactoe;
 
-import com.scaler.lld.tictactoe.models.Board;
-import com.scaler.lld.tictactoe.models.Game;
+import com.scaler.lld.tictactoe.models.*;
+import com.scaler.lld.tictactoe.strategies.playing.RandomPlayingStrategy;
 import org.junit.jupiter.api.Test;
+
+import java.util.List;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class TicTacToeTest {
+    private static final int BOARD_SIZE = 3; // Screening Case
     @Test
     public void testCreateGame(){
-
+        Board board = new Board(3); //Magic Number == hardCoded
+        Player humanPlayer = new HumanPlayer(GameSymbol.O,new User());
+        Player bot = new BotPlayer(GameSymbol.X,GameLevel.EASY, new RandomPlayingStrategy());
+        Game game = new Game(board, List.of(humanPlayer,bot) ,GameStatus.IN_PROGRESS);
     }
     @Test
     public void testCreateBoard(){
