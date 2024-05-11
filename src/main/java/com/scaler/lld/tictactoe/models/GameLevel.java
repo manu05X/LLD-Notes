@@ -1,4 +1,4 @@
-package com.example.examples.tictactoe.models;
+package com.scaler.lld.tictactoe.models;
 
 public enum GameLevel {
     EASY, MEDIUM, HARD

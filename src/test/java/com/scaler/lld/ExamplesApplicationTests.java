@@ -1,4 +1,4 @@
-package com.example.examples;
+package com.scaler.lld;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

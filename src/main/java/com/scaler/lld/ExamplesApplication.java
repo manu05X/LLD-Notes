@@ -1,4 +1,4 @@
-package com.example.examples;
+package com.scaler.lld;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -7,7 +7,10 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class ExamplesApplication {
 
     public static void main(String[] args) {
+
         SpringApplication.run(ExamplesApplication.class, args);
     }
 
 }
+
+
