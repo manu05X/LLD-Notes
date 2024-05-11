@@ -1,4 +1,5 @@
 package com.example.examples.tictactoe.models;
 
-public class Player {
+public enum GameSymbol {
+    X,O
 }
