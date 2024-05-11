@@ -11,7 +11,15 @@ public class Game {
     private List<Player> players = new ArrayList<>();
     private GameStatus status;
 
+    public void start(){}
+    public void makeMove() {}
+    private Player checkWinner(){
+        return null;
+    }
 
+    private boolean checkDraw() {
+        return false;
+    }
 }
 /*
 * In order to avoid null ponter exception we alwase initialize collections
