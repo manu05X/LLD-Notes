@@ -1,4 +1,8 @@
 package com.example.examples.tictactoe.models;
 
-public class Player {
+import lombok.AllArgsConstructor;
+
+@AllArgsConstructor
+public abstract class Player {
+    private GameSymbol symbol;
 }
